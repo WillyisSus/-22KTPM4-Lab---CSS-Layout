@@ -1,0 +1,46 @@
+header{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    row-gap: 1rem;
+}
+
+.logo{
+    min-height: 56px;
+    padding: 0;
+}
+
+nav{
+    min-height: 56px;
+}
+
+.header{
+    grid-area: 2 / 1 / span 1 / span 2;
+    margin: 0;
+    min-height: 104px;
+    padding: 1.5rem;
+}
+
+.intro{
+    min-height: 88px;
+    padding: 1.25rem;
+}
+
+.box-container{
+    background-color: white;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.box{
+    min-height: 352px;
+    padding: 2rem;
+}
+
+footer{
+    min-height: 32px;
+    padding: 0.5rem;
+}
+

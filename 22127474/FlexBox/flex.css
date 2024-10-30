@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    min-height: 56px;
+    padding: 0;
+    width: 15%;
+}
+
+nav{
+    min-height: 56px;
+    width: 85%;
+}
+
+.header{
+    min-height: 104px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.intro{
+    min-height: 88px;
+    padding: 1.25rem;
+}
+
+.box-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.box{
+    min-height: 352px;
+    padding: 2rem;
+    width: calc((100% - 6rem)/3);
+}
+
+footer{
+    min-height: 32px;
+    padding: 0.5rem;
+}
+
